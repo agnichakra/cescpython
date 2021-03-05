@@ -40,4 +40,10 @@ for i,j in d.items():
 d = {"1" : 1, "2" : 6, "1" :9}
 
 print(d)
+#delete the id
+employee = {"name": "agniswar", "ID" : 200, "salary" : 2000.69}
+del employee['ID']
 
+print(employee)
+# get fuction also can access value from the key
+print(employee.get("name"))

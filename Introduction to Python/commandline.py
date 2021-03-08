@@ -1,3 +1,4 @@
+#taking parameter from commandline argument
 import sys
 
 arg = sys.argv

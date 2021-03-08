@@ -1,3 +1,0 @@
-# for lopp accessing dictionary
-
-

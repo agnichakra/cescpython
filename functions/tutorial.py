@@ -137,4 +137,36 @@ def is_even(x):
         return False
 
 list2 = list(filter(is_even, list1))
-print(list2)    
+print(list2)   
+
+
+#decorator functions
+
+def decor(fun):
+    def inner():
+        value = fun()
+        return value +9
+    return inner
+
+
+def number():
+    return 65
+
+
+result = decor(number)
+print(result())
+
+
+
+def decor(fun):
+    def inner():
+        value = fun()
+        return value +9
+    return inner
+
+@decor
+def number():
+    return 65
+
+
+print(number())

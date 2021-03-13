@@ -1,6 +1,6 @@
-from calpackg import calc  as c
+from calpackg.calc import *
 
 
 if __name__ == "__main__":
-    print(c.my_sub(2,3))
+    print(my_sub(2,3))
 
